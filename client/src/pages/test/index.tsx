@@ -8,10 +8,11 @@ export default () => {
   const [time, setTime] = useState(0);
   const shoudlRenderTime = () => time > 0;
   const handleClick = async () => {
-    const res = await request(`/api/time`, {
+    const _res = await request(`/api/time`, {
       method: 'POST',
     })
-    setTime((res as any).time);
+    const { data: {time: res} } = _res
+    setTime(res);
   }
   return (
     <div className="wrapper">

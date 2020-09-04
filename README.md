@@ -1,6 +1,6 @@
 # Project Structure
 
-frontend: reactjs + umijs
+frontend: node(with yarn) + reactjs + umijs
 
 server: python flask
 
