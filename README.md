@@ -43,3 +43,5 @@ open another terminal and run
 ```
 npm run start-client
 ```
+
+then visit http://localhost:8000
