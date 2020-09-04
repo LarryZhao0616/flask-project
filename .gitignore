@@ -1,0 +1,32 @@
+npm-debug.log
+yarn-error.log
+node_modules/
+coverage/
+.idea/
+.DS_Store
+*.sw*
+*.un~
+.nodejs-cache
+.happypack
+.tmp/
+.vscode
+dist/
+build/
+com/
+yarn.lock
+package-lock.json
+*.log
+.umi
+.umi-production
+.temp/
+logs
+.eslintcache
+
+# client
+/client/.history
+
+# umi local config
+/client/**/*.local.ts
+
+venv
+__pycache__

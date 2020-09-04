@@ -1,0 +1,22 @@
+{
+  "name": "flask-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start-server && npm run start-client",
+    "start-client": "cd client && npm i && npm run start",
+    "start-server": "cd server && venv/bin/flask run --no-debugger",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flask",
+    "react",
+    "umi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "yarn": "^1.22.5"
+  }
+}
