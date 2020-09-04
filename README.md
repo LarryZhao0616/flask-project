@@ -1,20 +1,45 @@
-# 技术架构
+# Project Structure
 
-frontend: react + umi
+frontend: reactjs + umijs
+
 server: python flask
-database:
+
 deploy: docker + nginx
 
-# 开发环境
+database: not yet decided
 
-node（version: 10 or 12）：brew install node
-python3
-docker: https://docs.docker.com/get-docker/
-flask： （https://flask.palletsprojects.com/en/1.1.x/installation/#install-flask）
+
+# Environment
+
+node（version: 10 or 12）
+
+```
+brew install node
+node -v
+npm install yarn -g
+```
+
+python3 flask： （https://flask.palletsprojects.com/en/1.1.x/installation/#install-flask）
+
+```
+cd server
 python3 -m venv venv
 . venv/bin/activate
-pip install Flask
+pip install flask python-dotenv
+```
 
-# 运行  
+docker: https://docs.docker.com/get-docker/
 
-npm run start
+# Run
+
+at current terminal:
+
+```
+npm run start-server
+```
+
+open another terminal and run 
+
+```
+npm run start-client
+```

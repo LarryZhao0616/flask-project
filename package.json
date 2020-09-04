@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run start-server && npm run start-client",
     "start-client": "cd client && npm i && npm run start",
     "start-server": "cd server && venv/bin/flask run --no-debugger",
     "test": "echo \"Error: no test specified\" && exit 1"
